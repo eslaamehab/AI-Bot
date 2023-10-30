@@ -6,8 +6,8 @@ This project is part of Inroduction to Artificial Intelligence course to demonst
 2- Depth-First Search  
 3- Iterative Deepening Search  
 4- Uniform Cost Search  
-5- Greedy Search with at least two heuristics  
-6- A* Search with at least two admissible heuristics  
+5- Greedy Search with two heuristics  
+6- A* Search with two admissible heuristics  
 
 Each of the aforementioned strategies were tested and compared in terms of RAM usage, CPU utilization, and the number of search tree nodes expanded.
 
