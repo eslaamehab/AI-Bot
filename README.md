@@ -36,9 +36,9 @@ Greedy:
 
 The greedy strategy is applied twice: once using heuristic1 method which sorts the search queue according to this specific heuristic, and once using heuristic2 method which sorts the search queue according to this specific heuristic.
 
-A\*:
+A*:
 
-The A\* strategy is applied twice: once using heuristic 1 added to the path cost value returned from cost function sorts the search queue according the values returned from the cost function which is the sum of h1 and the path cost, and once using the heuristic 2 added to the path cost value returned cost function  sorts the search queue according the values returned from the cost function which is the sum of h2 and the path cost.
+The A* strategy is applied twice: once using heuristic 1 added to the path cost value returned from cost function sorts the search queue according the values returned from the cost function which is the sum of h1 and the path cost, and once using the heuristic 2 added to the path cost value returned cost function  sorts the search queue according the values returned from the cost function which is the sum of h2 and the path cost.
 
 Heuristic functions used and their admissibility in the case of A\*
 The two used heuristic functions are admissible as they never overestimate the cost to reach the goal, it is always less than or at most equals to the the actual path cost from our current node to the close goal
